@@ -26,5 +26,3 @@ The final (and most important) portion of the project is the speedup of all my f
 
 **Power**: A step above multiply is the power operation, which would naively conduct the multiply operation n times (where n = power). However, by implementing exponentiation by squaring, I only had to conduct the multiply operation log2(n) times, allowing for a much faster operation. Because multiply is already optimized and exponentiation by squaring is linear (cannot be parallelized), I cannot really add any spicy speedup tricks besides the optimal algorithm. However, from what I learned from testing, is that my matrix multiply is amazing at extremely large matrices (we're talking thousands of rows and columns) but is suboptimal on medium to small matrices. This led me to create an alternate matrix multiply which used the same concept as my normal multiply but with less overhead and "spiciness" in an attempt to appeal to smaller matrices. This alternate matrix multiply is then solely used in power, allowing me to achieve the power benchmark.
 
-## Task 5: README.md
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
