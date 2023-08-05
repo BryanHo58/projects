@@ -1,6 +1,6 @@
 # projects
 A collection of projects I have worked on.
-I am a current student at the University of California, Berkeley who is double majoring in BioEngineering and Electrical Engineering/Computer Science.
+I graduated from the University of California, Berkeley, double majoring in BioEngineering and Electrical Engineering/Computer Science.
 
 Amazons - Java version of the Amazons board game that incorporates an opponent AI player. \
 Ants - A tower defense game in python that mimicks Plants vs. Zombies. \
